@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    margin: 20px;
+  }
+
+  #calculator {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .form-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    align-items: start;
+    gap:15px
+  }
+
+ input{
+  width: 100%;
+  outline: none;
+  padding: 8px 4px;
+  border-radius: 5px;
+  border: 1px solid black;
+ }
+
+ label{
+  color: rgb(24, 24, 24);
+  font-weight: 600;
+  font-size: 14px;
+ }
+
+ button{
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  background-color: rgb(7, 100, 188);
+  padding: 0.8rem 2.5rem;
+  cursor: pointer;
+ }
+
+ .result-container{
+  display: flex;
+  gap:5px;
+  align-items: center;
+ }
+
+ h4{
+  font-weight: 700;
+  color: rgb(52, 48, 48);
+ }
+
+ h3{
+   color: rgb(6, 140, 242);
+ }
