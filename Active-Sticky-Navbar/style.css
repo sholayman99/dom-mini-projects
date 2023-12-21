@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../assets/images/yellow.jpg'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .nav {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+    padding: 10px 20px;
+    color: rgb(255, 3, 3);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    gap: 10rem;
+  }
+
+  .nav-active{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    color: rgb(245, 240, 240);
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    gap: 10rem;
+  }
+
+ a {
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 18px;
+    color: rgb(248, 0, 0);
+  }
+
+  section {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
