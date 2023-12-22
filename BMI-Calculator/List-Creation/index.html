@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>List Creation</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Make Your Own List</h1>
+      </header>
+      <div>
+        <div class="input-container">
+          <input placeholder="Item Name" type="text" name="list" id="list" />
+          <input placeholder="Item Price" type="number" id="price-value" />
+          <button onclick="appendItem()">Add</button>
+        </div>
+      </div>
+
+      <section>
+        <table>
+          <thead>
+            <th>Item</th>
+            <th>Price</th>
+          </thead>
+        </table>
+      </section>
+    </main>
+
+    <!-- js----->
+    <script src="./main.js"></script>
+  </body>
+</html>
